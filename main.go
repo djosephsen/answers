@@ -22,7 +22,7 @@ func helpHandler(w http.ResponseWriter, r *http.Request) {
 func getHandler(w http.ResponseWriter, r *http.Request) {
 	answerType := r.URL.Path[len("/get/"):]
 	defer metrics.Time("answer.handler."+answerType, time.Now())
-	fmt.Fprintf(w, "%s",a.Answers[answerType].Rand())
+	fmt.Fprintf(w, "%s\n",a.Answers[answerType].Rand())
 }
 
 func initAnswers(){

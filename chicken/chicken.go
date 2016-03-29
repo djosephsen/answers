@@ -35,7 +35,7 @@ var db = []string{
 	`No-one knows, but the road sure was pissed`,
 	`Because MURICA! It can go anywhere it wants`,
 	`Because it was a fundie chicken`,
-	`becasue the road crossed him`,
+	`Because the road crossed him`,
 	`In Soviet Russia, the road crosses YOU!`,
 	`To die. In the rain. Alone.
 	-Hemingway`,
